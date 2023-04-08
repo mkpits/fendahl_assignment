@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background-image: url('download.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 30px;
+    }
+
+
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid #ddd;
+    }
+
+
+    input[type=radio] {
+      margin: 0 5px 0 0;
+    }
+
+    label {
+      margin-right: 20px;
+    }
+
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      margin: 20px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+
+    form {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      width: 400px;
+      margin: 0 auto;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    input[type="reset"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+
+  </style>
+
+  <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+<center><h2>Student_Regirstration_Form</h2></center>
+<hr >
+
+<center><form action="insert_project.jsp" method="post">
+  Name         : <input type="text" name="name" value="">
+  <br>
+  <br>
+
+  Registration Fess:<input type ="text" name="" value="" >
+  <br>
+  <br>
+
+  Gender    : <input type="radio" value="1" name="egen">Male
+  <input type="radio" value="2" name="egen">Female
+
+  <br>
+  <br>
+
+  Category   : <input type="radio" value="1" name="ecat">Student
+  <input type="radio" value="1" name="ecat">IT_Professional
+
+  <br>
+  <br>
+  Address       : <input type="checkbox" name="address">Nation
+  <input type="checkbox" name="address">State
+  <input type="checkbox" name="address">City
+
+  <br>
+  <br>
+  Date :<input type="date" name="" value="date">
+
+  <br>
+  <br>
+
+  <input type="submit" value="Save" >
+  <input type="reset"  value="Reset">
+
+
+  <br>
+  <br>
+
+
+</form></center>
+
+</body>
+</html>
